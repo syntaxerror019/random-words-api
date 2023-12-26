@@ -6,9 +6,9 @@ This is an API that can be used to find random words and their definitions. You 
 ## Demo
 
 View the live demo using one of the following links:
-[https://randomwordsapi.vercel.app/](https://randomwordsapi.vercel.app/)
-[https://rando-word.vercel.app/](https://rando-word.vercel.app/)
-[https://rando-word-api.vercel.app/](https://rando-word-api.vercel.app/)
+[https://randomwordsapi.vercel.app/](https://randomwordsapi.vercel.app/)<br> <!---Putting HTML in here??!?!?!?--->
+[https://rando-word.vercel.app/](https://rando-word.vercel.app/)<br>
+[https://rando-word-api.vercel.app/](https://rando-word-api.vercel.app/)<br>
 
 (They all do the same thing)
 
