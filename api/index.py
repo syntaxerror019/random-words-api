@@ -45,7 +45,8 @@ def find_words(json_file_path, num_words=1, num_letters=None): # Find words with
 
             result.append(word_info)
 
-    return json.dumps(result, indent=2, ensure_ascii=False)
+    #return json.dumps(result, indent=2, ensure_ascii=False)
+     return result
 
 @app.route('/')
 def home():
