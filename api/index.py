@@ -73,7 +73,7 @@ def rate_limit():
             # Check if the request count exceeds the limit
             if request_data[ip_address]["count"] > MAX_REQUESTS_PER_MINUTE:
                 # Rate limit exceeded, return a 429 Too Many Requests response
-                return jsonify({"word": "Too many requests.", "definitions": "You are limited to 30 calls per minute in order to save resources on this serverless API, and let others enjoy low-latency. If you need a higher quota, reach out to me for your specific need, or deploy this API locally.", "synonyms": ["too fast","slow down"]}), 429
+                return jsonify([{"word": "Too many requests.", "definitions": "You are limited to 30 calls per minute in order to save resources on this serverless API, and let others enjoy low-latency. If you need a higher quota, reach out to me for your specific need, or deploy this API locally.", "synonyms": ["too fast","slow down"]}]), 429
         else:
             # Reset the request count if the time period has passed
             request_data[ip_address]["count"] = 1
