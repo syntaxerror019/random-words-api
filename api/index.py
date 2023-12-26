@@ -12,7 +12,7 @@ def find_words(json_file_path, num_words=1, num_letters=None): # Find words with
     except json.JSONDecodeError:
         return json.dumps([{"word": "Error: Invalid JSON format", "definitions": [], "synonyms": []}], indent=2, ensure_ascii=False)
 
-    if num_words is not None and num_words > len(data):
+    if num_words > len(data):
         num_words = len(data)
         
     selected_words = set()
@@ -54,7 +54,7 @@ def home():
 @app.route('/random')
 def about():
     length = None
-    count = None
+    count = 1
     
     if request.args.get('length'):
         length = request.args.get('length')
