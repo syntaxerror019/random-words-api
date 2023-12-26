@@ -18,6 +18,10 @@ View the live demo using one of the following links:<br>
 Visit the main page of the website [here](https://rando-word-api.vercel.app/) and check out the endpoints supported.
 
 
+## Notes
+
+You may call the API 30 times per minute, or you will get rate-limited. If you need a higher quota, reach out to me with your specific scenario or deploy this API locally and remove the rate-limiting functionality from the code.
+
 ## Running Locally
 
 ```bash
