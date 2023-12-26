@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-import random, json
+import random, json, os
 
 app = Flask(__name__)
 
@@ -62,7 +62,9 @@ def about():
         
     if request.args.get('count'):
         length = request.args.get('count')
-
-    res = find_words("data.json", count, length)
+        
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(current_directory, "data.json")
+    res = find_words(file_path, count, length)
     
     return jsonify(res)
