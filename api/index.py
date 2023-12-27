@@ -41,7 +41,7 @@ def rate_limit():
         request_data[ip_address] = {"count": 1, "timestamp": time.time()}
 
 @app.route('/')
-def home():
+def home(): 
     return render_template("index.html")
 
 @app.route('/random')
