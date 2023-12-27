@@ -1,3 +1,14 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#         # This is not the file you are looking for! #         #
+#                                                               #
+#       This is not the API, code. Its the redirect code        #
+#       to the repl.it website. The real API code can be        #
+#       found in the API_CODE folder on the GitHub Repo         #
+#                       Sorry to disappoint.                    #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
 from flask import Flask, render_template, request, jsonify, g
 import random, json, os, time
 
