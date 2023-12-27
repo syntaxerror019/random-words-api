@@ -8,7 +8,7 @@ This is an API that can be used to find random words and their definitions. You 
 
 ## Demo
 
-### (Note as of 12/27/23: The following vercel sites will redirect you the Repl version of this API. Please do not use the following links in your API!)
+#### (Note as of 12/27/23: The following vercel URLs will redirect you the Repl version of this API. Please do not use the following links in your API!)
 View the live demo using one of the following links:<br>
 [https://randomwordsapi.vercel.app/](https://randomwordsapi.vercel.app/)<br> 
 [https://rando-word.vercel.app/](https://rando-word.vercel.app/)<br>
@@ -19,7 +19,6 @@ View the live demo using one of the following links:<br>
 
 ## How to use it
 
-### (Note as of 12/27/23: The following vercel sites will redirect you the Repl version of this API. Please do not use the following links in your API!)
 Visit the main page of the website [here](https://rando-word-api.vercel.app/) and check out the endpoints supported.
 
 
