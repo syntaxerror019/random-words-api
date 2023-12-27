@@ -1,0 +1,33 @@
+<html>
+<style>
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+a {
+color: blue;
+}
+</style>
+<h1>Random Word API</h1>
+<hr>
+<p>A simple API that returns random words and their definitions. There are multiple ways to customize the responses it returns. Take a look below:
+
+
+<br><br><br><br>
+<b>Example Usage:</b><br><br>
+<code><a href="/random">/random</a></code> - Get a random word of any length and the definition.<br>
+<br>
+<code><a href="/random?length=5">/random?length=5</a></code> - Get a random word with 5 letters and the definition<br>
+<br>
+<code><a href="/random?count=5">/random?count=5</a></code> - Get 5 random words of any length and their definitions.<br>
+<br>
+<code><a href="/random?length=5&count=5">/random?length=5&count=5</a></code> - Get 5 random words with 5 letters in each the and their definitions.
+<br>
+    <br><br>
+<u><b>Note:</b> You are limited to 30 calls per minute of this API. If you need to go over this limit, please reach out to me with your specific scenario or deploy this API locally and remove the rate-limit code.</u>
+<footer>
+2023 - SyntaxError - Open Source on GitHub <a style= "color: red;" href="https://github.com/syntaxerror019/random-word-api/tree/main">here</a>.
+</footer>
