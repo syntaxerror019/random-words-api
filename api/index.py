@@ -14,6 +14,12 @@ import random, json, os, time
 
 app = Flask(__name__)
 
+request_data = {}
+
+# Maximum allowed requests per minute
+MAX_REQUESTS_PER_MINUTE = 30
+RATE_LIMIT_PERIOD = 60  # 60 seconds for a minute
+
 @app.before_request
 def rate_limit():
     # Get the IP address of the requester
@@ -47,4 +53,3 @@ def home():
 @app.route('/random')
 def random():
     return jsonify([{"word": "This API has moved!", "definitions": "random-word-api is no longer hosted on vercel. Either go to the main page of this vercel to get redirected to the new repl.it site, or use the following link in your project: https://random-word-api.sky-wired.repl.co/", "synonyms": ["404", "We Moved", "Get outa here!"]}])
-
