@@ -1,4 +1,4 @@
-## [Note: This project is now hosted on repl.it, as vercel's serverless websites caused probkems with some programming languages. Please use the Repl version of Random-Word-Api. Thanks!]
+## Note: This project is now hosted on repl.it, as vercel's serverless websites caused probkems with some programming languages. Please use the Repl version of Random-Word-Api. Thanks!
 
 
 
